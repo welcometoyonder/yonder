@@ -1,0 +1,227 @@
+
+/* CSS Document */
+
+/* Main Body Styling */
+
+body, div,
+h1, h2, h3, h4, h5, h6, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+p {
+	font-family:'Roboto';
+	font-size:1em;
+	color:#fff;
+	font-weight:300;
+	
+}
+/* Header Styling */
+
+header {
+ 
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  padding:0;
+  margin:0 auto;
+}
+
+.logo {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 55px;
+  padding: 0 20px;
+  color: #fff;
+  float: left;
+}
+
+/* Section Styling */
+
+#home {
+	background-color:#520E24;		/*-- #520E24 Burgundy --*/
+}
+#web {
+	background-color:#0E5B70;		/*-- #4CC4D6 Blue --*/
+}
+#graphic {
+	background-color:#8B9748;		/*-- #8B9748 Green --*/
+}
+#branding {
+	background-color:#AF1013;		/*--  #AF1013 Red --*/
+}
+#illustration {
+	background-color:#FFD35D;		/*--  #FFD35D Yellow --*/
+}
+#contact {
+	background-color:#EB3D71;		/*--  #EB3D71 Pink --*/
+}
+
+/* Homepage - Main Logo Image */
+
+#home-logo {
+	width:50%;
+	padding-left:25%;
+	padding-top:10%;
+	margin:0 auto;
+	float:left;
+}
+#home-logo img {
+	width:100%;
+	height:auto;	
+}
+
+/* Homepage - Link Section */
+
+#main-about-link  {
+	float:left;
+	width:100%;
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:1%;
+	background-color:;
+	color:#fff;
+}
+#main-about-link a{
+	color:#fff;
+	text-decoration:none;
+}
+#main-about-link a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+#main-about-link img {
+	width:5%;
+	padding-right:1%;
+	height:auto;
+	float:left;
+	margin:0 auto;
+}
+#main-work-link  {
+	float:left;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+#main-work-link a{
+	color:#fff;
+	text-decoration:none;
+}
+#main-work-link a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size:2em;
+	color:#ffffff;
+	margin:0 auto;
+	font-weight:100;
+}
+
+/* Content Containers */
+
+.container-frame {
+    width:90%;
+    height:85%;
+	margin-left:5%;
+	border-bottom: 2px solid white;
+	margin-top:2.5%;
+    background-color:;	/* #D02628 - Red */
+	text-align:center;
+}
+
+.container-frame-home {
+    width:90%;
+    height:85%;
+	margin-left:5%;
+	border-bottom:;
+	margin-top:2.5%;
+    background-color:;	/* #D02628 - Red */
+	text-align:center;
+}
+.socialicons {
+	text-align:center;
+	padding-top:10px;
+	
+	
+}
+.socialicons a{
+padding-right:20px;
+}
+.content-container {
+    width:90%;
+	margin-top:2.5%;
+	margin-left:2.5%;
+    height:85%;
+} 
+.content-left {
+padding-top:10%;
+	width:50%;
+	height:auto;
+	margin:0 auto;
+	background-color:; /* #5e751c - Green */
+	float:left;
+	text-align:center;
+}
+.content-right {
+	padding-top:5%;
+	width:50%;
+	height:auto;
+	margin:0 auto;
+	background-color:; /* #5e751c - Green */
+	float:left;	
+	text-align:center;
+}
+.content-left img {
+	
+	width:50%;
+	height:auto;
+}
+.content-right img {
+	width:50%;
+	height:auto;	
+}
+
+/* Type Styling */
+
+.project-title {
+	color:#FFFFFF;
+	size:1.5em;
+	font-weight:700;
+}
+.project-details {
+	padding-top:2%;
+	color:#FFFFFF;
+	size:1.5em;
+	
+}
+.project-type {
+	padding-top:2%;
+	color:#FFFFFF;
+	font-family: 'Amatic SC', cursive;
+	size:1.5em;
+	
+}
+.project-portfolio {
+	padding-top:2%;
+	color:#FFFFFF;
+	size:1.5em;
+	font-family: 'Amatic SC', cursive;
+}

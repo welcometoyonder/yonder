@@ -1,0 +1,89 @@
+
+/* CSS Document  - Tabs*/
+
+/*----- Tabs -----*/
+
+.tabs {
+	padding-top:;
+    width:100%;
+    display:;
+	height:90%;
+	
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:inline-block;
+        clear:both;
+        content:'';
+    }
+	
+	.tab-links {
+		width:auto;
+		height:auto;
+		
+		
+	}
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+		font-family: 'Amatic SC', cursive;
+    	
+    	color:;
+
+    text-decoration:none;
+    }
+ 
+    .tab-links li a {
+    padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+           
+            font-size:2em;
+            font-weight:600;
+            color:#fff;
+            transition:all linear 0.15s;
+			text-decoration:none;
+        }
+ 
+        .tab-links li a:hover {
+            font-color:#1DEB28;
+			text-decoration:;
+            
+        }
+ 
+    li.active a, li.active a:hover {
+        background:;
+        font-color:#1DEB28;
+		text-decoration:none;
+    }
+	
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+		width:100%;
+        padding:15px 0 15px 0;
+        background-color:;
+		height:auto;
+		border-top:2px solid white;
+		
+		float:left;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+		
+		@media screen and (max-width: 40em) {
+	
+	#home-logo {
+	padding-top:65%;
+	
+}
